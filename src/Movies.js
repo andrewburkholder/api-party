@@ -3,6 +3,9 @@ import { Route } from 'react-router-dom'
 
 import MovieInfo from './MovieInfo'
 
+import './Github.css'
+
+
 class Movies extends Component {
     state = {
       movieName: '',
@@ -19,7 +22,7 @@ class Movies extends Component {
   
     render() {
       return (
-        <div className="Movies">
+        <div className="Github">
           {/* <img
             src="http://www.aha.io/assets/github.7433692cabbfa132f34adb034e7909fa.png"
             alt="GitHub"

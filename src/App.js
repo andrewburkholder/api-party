@@ -18,9 +18,9 @@ class App extends Component {
           <li>
             <NavLink to="/github">GitHub API</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/homework">Homework</NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/movies">Movies</NavLink>
           </li>
