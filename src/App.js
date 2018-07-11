@@ -3,6 +3,7 @@ import { Route, NavLink, Switch } from 'react-router-dom'
 
 import './App.css'
 import Github from './Github'
+import Movies from './Movies';
 
 class App extends Component {
   render() {
@@ -20,10 +21,14 @@ class App extends Component {
           <li>
             <NavLink to="/homework">Homework</NavLink>
           </li>
+          <li>
+            <NavLink to="/movies">Movies</NavLink>
+          </li>
         </ul>
 
         <Switch>
           <Route path="/github" component={Github} />
+          <Route path="/movies" component={Movies} />
           <Route render={() => (
               <p>To get started, click one of the links above.</p>
           )} />
